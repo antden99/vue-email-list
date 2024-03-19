@@ -1,0 +1,23 @@
+* {
+    background-color: rgb(76, 76, 206);
+}
+
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+ol {
+
+  
+
+    >li {
+        border: 1px solid;
+       
+    }
+}

@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 
 <body>
     <div id="app">
-        <h1>List email</h1>
-        <ul>
-            <li v-for="email in emailList">
-                {{email}}
-            </li>
-        </ul>
+        <div class="container">
+            <h1>My List Email</h1>
+            <ol>
+                <li v-for="email in emailList">
+                    <p v-if=" emailList.length >= 10">{{email}}</p>
+                </li>
+            </ol>
+        </div>
     </div>
 
 
